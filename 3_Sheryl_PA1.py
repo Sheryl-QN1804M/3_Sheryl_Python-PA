@@ -2,8 +2,8 @@ class CalUtils:
     def __init__(self):                         #def the variable, init to store variable
         self.names = []
         self.heights = []
-        self.totalStudentHeight=0 #set to 0
-        self.totalStudentCount =0
+        self.totalStudentHeight=0.0 #set to 0.0 to show variable is float
+        self.totalStudentCount =0 #set to 0 to show variable is integer
 
     def CalAvgHeight(self):
         print ("Student average height is : ")
