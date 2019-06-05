@@ -49,7 +49,7 @@ class CalUtils: #def CalUtils class
                 print("Student average height is: " + str(round(self.totalStudentHeight / self.totalStudentCount, 2)) + " m for " + str(int(self.totalStudentCount)) + " students.")
 
         else:
-            print("Student average height is: " + str(round(self.totalStudentHeight / self.totalStudentCount, 2)) + " m for " + str(int(self.totalStudentCount)) + "students.")
+            print("Student average height is: " + str(round(self.totalStudentHeight / self.totalStudentCount, 2)) + " m for " + str(int(self.totalStudentCount)) + " students.")
 
 p = CalUtils()    #instance of CalUtils,call its constructor
 p.CalAvgHeight()  #CalUtils calls its method,produce the result
