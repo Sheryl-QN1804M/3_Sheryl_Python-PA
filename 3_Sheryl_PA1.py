@@ -33,7 +33,7 @@ class CalUtils: #def CalUtils class
                 self.totalStudentHeight += val # add new_heights to the total no. of self.totalStudentHeight
                 self.totalStudentCount += 1
 
-                print("Student average height is: " + str(round(self.totalStudentHeight / self.totalStudentCount, 2)) + " m for " + str(int(self.totalStudentCount)) + " students." )
+                print("Student average height is: " + str(round(self.totalStudentHeight / self.totalStudentCount, 2)) + " m for " + str(int(self.totalStudentCount)) + " students." ) #print string for statement
 
             except:
                 print("No.. input is not a numeric")
