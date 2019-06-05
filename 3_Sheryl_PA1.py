@@ -53,13 +53,3 @@ class CalUtils:
 
 p = CalUtils()    #initialize class to specify the object
 p.CalAvgHeight()  #initialize function to specify the object
-
-
-
-
-
-
-
-
-
-
